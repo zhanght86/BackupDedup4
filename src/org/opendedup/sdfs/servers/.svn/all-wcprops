@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/servers
+END
+SDFSService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/servers/SDFSService.java
+END
+HCServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/servers/HCServer.java
+END
+ByteCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/servers/ByteCache.java
+END
+HashEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/servers/HashEngine.java
+END
+HashChunkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/servers/HashChunkService.java
+END
+HCServiceProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/376/trunk/src/org/opendedup/sdfs/servers/HCServiceProxy.java
+END

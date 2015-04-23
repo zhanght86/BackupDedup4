@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/gc
+END
+GCControllerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/gc/GCControllerImpl.java
+END
+StandAloneGCScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/gc/StandAloneGCScheduler.java
+END
+ManualGC.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/gc/ManualGC.java
+END
+SDFSGCScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/gc/SDFSGCScheduler.java
+END
+ChunkClaimJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/filestore/gc/ChunkClaimJob.java
+END
+FDISKJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/filestore/gc/FDISKJob.java
+END
+PFullGC.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/gc/PFullGC.java
+END
+ChunkStoreGCScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/gc/ChunkStoreGCScheduler.java
+END
+GCRun.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/gc/GCRun.java
+END
+GCMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/298/trunk/src/org/opendedup/sdfs/filestore/gc/GCMain.java
+END

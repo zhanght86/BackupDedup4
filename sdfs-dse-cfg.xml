@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<chunk-server version="1.1.2">
+<network hostname="202.117.49.253" port="2222" use-udp="false"/>
+<locations chunk-store="C:\Program Files\sdfs\dse\sdfs\chunkstore\chunks" hash-db-store="C:\Program Files\sdfs\dse\sdfs\chunkstore\hdb"/>
+<chunk-store allocation-size="1073741824" chunk-gc-schedule="0 0 0/4 * * ?" chunk-store-dirty-timeout="1000" chunk-store-read-cache="5" encrypt="false" encryption-key="KdhCpk5YTB6hk8@kW6ElqpGSTt14ZSdF@HR" eviction-age="6" hash-size="16" page-size="131072" pre-allocate="false" read-ahead-pages="1"/>
+</chunk-server>

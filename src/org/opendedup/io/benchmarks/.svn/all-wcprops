@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/286/trunk/src/org/opendedup/io/benchmarks
+END
+WriteTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/286/trunk/src/org/opendedup/io/benchmarks/WriteTest.java
+END
+ReadTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/286/trunk/src/org/opendedup/io/benchmarks/ReadTest.java
+END

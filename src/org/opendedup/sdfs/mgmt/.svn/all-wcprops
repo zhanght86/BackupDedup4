@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt
+END
+ImportArchiveCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/mgmt/ImportArchiveCmd.java
+END
+SetPasswordCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/353/trunk/src/org/opendedup/sdfs/mgmt/SetPasswordCmd.java
+END
+GetEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/GetEvents.java
+END
+GetFilteredFileAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/381/trunk/src/org/opendedup/sdfs/mgmt/GetFilteredFileAttributes.java
+END
+GetVolume.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/381/trunk/src/org/opendedup/sdfs/mgmt/GetVolume.java
+END
+GetDSE.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/381/trunk/src/org/opendedup/sdfs/mgmt/GetDSE.java
+END
+XtendedCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/mgmt/XtendedCmd.java
+END
+GetEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/mgmt/GetEvent.java
+END
+FlushBuffersCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/FlushBuffersCmd.java
+END
+MakeVMDKCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/mgmt/MakeVMDKCmd.java
+END
+CleanStoreCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/mgmt/CleanStoreCmd.java
+END
+SnapshotCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/SnapshotCmd.java
+END
+GetOpenFiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/390/trunk/src/org/opendedup/sdfs/mgmt/GetOpenFiles.java
+END
+DeleteFileCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/DeleteFileCmd.java
+END
+GetDebug.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/381/trunk/src/org/opendedup/sdfs/mgmt/GetDebug.java
+END
+GetAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/381/trunk/src/org/opendedup/sdfs/mgmt/GetAttributes.java
+END
+DeleteArchiveCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/376/trunk/src/org/opendedup/sdfs/mgmt/DeleteArchiveCmd.java
+END
+MgmtWebServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/MgmtWebServer.java
+END
+SetDedupAllCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/mgmt/SetDedupAllCmd.java
+END
+ExpandVolumeCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/291/trunk/src/org/opendedup/sdfs/mgmt/ExpandVolumeCmd.java
+END
+ArchiveOutCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/ArchiveOutCmd.java
+END
+MakeFolderCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/290/trunk/src/org/opendedup/sdfs/mgmt/MakeFolderCmd.java
+END
+MultiSnapshotCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/mgmt/MultiSnapshotCmd.java
+END

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">com.annesam.cudaMD5.**
+com.myJava.util.collections.**
+com.ning.compress.lzf.**
+frame.**
+fuse.**
+java.nio.file.attribute.**
+java2c.**
+org.opendedup.collections.**
+org.opendedup.hashing.**
+org.opendedup.mtools.**
+org.opendedup.sdfs.**
+org.opendedup.util.**
+test.**
+xjtu.dedup.DB.**
+xjtu.dedup.backupGUI.**
+xjtu.dedup.backupRestore.**
+xjtu.dedup.backupmngt.**
+xjtu.dedup.bloomfilter.**
+xjtu.dedup.fingerprint.**
+xjtu.dedup.multithread.**
+xjtu.dedup.multivolumes.**
+xjtu.dedup.restoremngt.**
+xjtu.dedup.zip64.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">com.annesam.cudaMD5.*,
+com.myJava.util.collections.*,
+com.ning.compress.lzf.*,
+frame.*,
+fuse.*,
+java.nio.file.attribute.*,
+java2c.*,
+org.opendedup.collections.*,
+org.opendedup.hashing.*,
+org.opendedup.mtools.*,
+org.opendedup.sdfs.*,
+org.opendedup.util.*,
+test.*,
+xjtu.dedup.DB.*,
+xjtu.dedup.backupGUI.*,
+xjtu.dedup.backupRestore.*,
+xjtu.dedup.backupmngt.*,
+xjtu.dedup.bloomfilter.*,
+xjtu.dedup.fingerprint.*,
+xjtu.dedup.multithread.*,
+xjtu.dedup.multivolumes.*,
+xjtu.dedup.restoremngt.*,
+xjtu.dedup.zip64.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+</properties>

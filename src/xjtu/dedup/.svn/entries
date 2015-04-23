@@ -1,0 +1,98 @@
+10
+
+dir
+0
+http://opendedup.googlecode.com/svn/trunk/src/xjtu/dedup
+http://opendedup.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+856e77c2-2ed6-11df-8e64-fd3be38ee323
+
+fileutils
+dir
+
+
+
+add
+
+multithread
+dir
+
+
+
+add
+
+DB
+dir
+
+
+
+add
+
+berkeleyDB
+dir
+
+
+
+add
+
+methodinterf
+dir
+
+
+
+add
+
+backupRestore
+dir
+
+
+
+add
+
+restoremngt
+dir
+
+
+
+add
+
+SWUtils
+dir
+
+
+
+add
+
+backupmngt
+dir
+
+
+
+add
+
+mngtobject
+dir
+
+
+
+add
+

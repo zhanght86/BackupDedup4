@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/354/trunk/src/org/opendedup/hashing
+END
+HashFunctionPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/354/trunk/src/org/opendedup/hashing/HashFunctionPool.java
+END
+Murmur3HashEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/348/trunk/src/org/opendedup/hashing/Murmur3HashEngine.java
+END
+TigerHashEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/348/trunk/src/org/opendedup/hashing/TigerHashEngine.java
+END
+Tiger16HashEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/348/trunk/src/org/opendedup/hashing/Tiger16HashEngine.java
+END
+HashFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/353/trunk/src/org/opendedup/hashing/HashFunctions.java
+END
+AbstractHashEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/348/trunk/src/org/opendedup/hashing/AbstractHashEngine.java
+END
+MurmurHash3.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/353/trunk/src/org/opendedup/hashing/MurmurHash3.java
+END

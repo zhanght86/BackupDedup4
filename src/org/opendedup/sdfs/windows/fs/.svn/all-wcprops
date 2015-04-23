@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/328/trunk/src/org/opendedup/sdfs/windows/fs
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/windows/fs/Utils.java
+END
+MountSDFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/windows/fs/MountSDFS.java
+END
+ShutdownHook.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/windows/fs/ShutdownHook.java
+END
+MetaDataFileInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/windows/fs/MetaDataFileInfo.java
+END
+WinSDFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/328/trunk/src/org/opendedup/sdfs/windows/fs/WinSDFS.java
+END
+UnmountFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/windows/fs/UnmountFS.java
+END

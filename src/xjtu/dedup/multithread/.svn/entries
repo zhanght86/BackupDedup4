@@ -1,0 +1,91 @@
+10
+
+dir
+0
+http://opendedup.googlecode.com/svn/trunk/src/xjtu/dedup/multithread
+http://opendedup.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+856e77c2-2ed6-11df-8e64-fd3be38ee323
+
+IBackupRestoreClient.java
+file
+
+
+
+add
+
+RestoreClient.java
+file
+
+
+
+add
+
+BackupClient.java
+file
+
+
+
+add
+
+RestorePoolThread.java
+file
+
+
+
+add
+
+RestoreThreadPool.java
+file
+
+
+
+add
+
+BackupRestorePoolThread.java
+file
+
+
+
+add
+
+BackupRestoreThreadPool.java
+file
+
+
+
+add
+
+RestoreClientPool.java
+file
+
+
+
+add
+
+BackupClientPool.java
+file
+
+
+
+add
+

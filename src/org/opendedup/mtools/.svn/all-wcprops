@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/405/trunk/src/org/opendedup/mtools
+END
+FDisk.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/405/trunk/src/org/opendedup/mtools/FDisk.java
+END
+MetaFileImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/399/trunk/src/org/opendedup/mtools/MetaFileImport.java
+END
+ThreadedFDisk.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/405/trunk/src/org/opendedup/mtools/ThreadedFDisk.java
+END
+Partition.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/261/trunk/src/org/opendedup/mtools/Partition.java
+END
+DiskUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/286/trunk/src/org/opendedup/mtools/DiskUtils.java
+END
+VMDKMountPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/261/trunk/src/org/opendedup/mtools/VMDKMountPoint.java
+END

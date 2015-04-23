@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/405/trunk/src
+END
+pmount.sdfs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/221/trunk/src/pmount.sdfs
+END
+sdfscli.sh
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/329/trunk/src/sdfscli.sh
+END
+mount.sdfs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/399/trunk/src/mount.sdfs
+END
+iscsi_tgt.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/286/trunk/src/iscsi_tgt.sh
+END
+sdfsreplicate.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/302/trunk/src/sdfsreplicate.sh
+END
+mkdse
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/345/trunk/src/mkdse
+END
+changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/404/trunk/src/changes.txt
+END
+runbonnie.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/221/trunk/src/runbonnie.sh
+END
+makesnapshots.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/221/trunk/src/makesnapshots.sh
+END
+startStorageHub.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/221/trunk/src/startStorageHub.sh
+END
+replication.props
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/394/trunk/src/replication.props
+END
+readme-win32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/221/trunk/src/readme-win32.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/326/trunk/src/readme.txt
+END
+mkfs.sdfs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/323/trunk/src/mkfs.sdfs
+END

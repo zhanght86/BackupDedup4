@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="profiler.settings.n.profiled.threads.limit">32</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="profiler.settings.obj.alloc.stack.sampling.depth">-1</entry>
+<entry key="profiler.settings.instrument.method.invoke">true</entry>
+<entry key="profiler.settings.instr.scheme">1</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">com.annesam.cudaMD5.**
+com.ning.compress.lzf.**
+frame.**
+fuse.**
+java2c.**
+org.opendedup.collections.**
+org.opendedup.hashing.**
+org.opendedup.mtools.**
+org.opendedup.sdfs.**
+org.opendedup.util.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">com.annesam.cudaMD5.*,&#13;
+com.ning.compress.lzf.*,&#13;
+frame.*,&#13;
+fuse.*,&#13;
+java2c.*,&#13;
+org.opendedup.collections.*,&#13;
+org.opendedup.hashing.*,&#13;
+org.opendedup.mtools.*,&#13;
+org.opendedup.sdfs.*,&#13;
+org.opendedup.util.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+<entry key="profiler.settings.sampling.interval">10</entry>
+<entry key="profiler.settings.cpu.profiling.type">0</entry>
+</properties>

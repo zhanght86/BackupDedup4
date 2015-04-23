@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_KvqBkKXaEeKWZ7f2mufWnQ">
+  <name xsi:nil="true"/>
+  <elementImport xmi:id="_KzFJRKXaEeKWZ7f2mufWnQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_KzO6A6XaEeKWZ7f2mufWnQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+  </elementImport>
+  <elementImport xmi:id="_KzYrA6XaEeKWZ7f2mufWnQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+  </elementImport>
+  <elementImport xmi:id="_KzYrBKXaEeKWZ7f2mufWnQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+  </elementImport>
+  <elementImport xmi:id="_K1KzuqXaEeKWZ7f2mufWnQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KvzykKXaEeKWZ7f2mufWnQ" name="xjtu">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KvzykaXaEeKWZ7f2mufWnQ" name="dedup">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYT6XaEeKWZ7f2mufWnQ" name="backupmngt">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYUKXaEeKWZ7f2mufWnQ" name="BackupJob"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViL6XaEeKWZ7f2mufWnQ" name="BackupApp"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYU6XaEeKWZ7f2mufWnQ" name="fileutils">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYVKXaEeKWZ7f2mufWnQ" name="FileInfoUtil"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYVaXaEeKWZ7f2mufWnQ" name="methodinterf">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYVqXaEeKWZ7f2mufWnQ" name="DedupMethod"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYV6XaEeKWZ7f2mufWnQ" name="restoremngt">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYWKXaEeKWZ7f2mufWnQ" name="RestoreJob"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViOaXaEeKWZ7f2mufWnQ" name="preprocess">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViOqXaEeKWZ7f2mufWnQ" name="CDCParameter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYUaXaEeKWZ7f2mufWnQ" name="berkeleyDB">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYUqXaEeKWZ7f2mufWnQ" name="BerkeleyDB"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KvzykqXaEeKWZ7f2mufWnQ" name="backupRestore">
+        <packagedElement xmi:type="uml:Class" xmi:id="_KvzylKXaEeKWZ7f2mufWnQ" name="Restore">
+          <ownedOperation xmi:id="_KzYrDaXaEeKWZ7f2mufWnQ" name="buildOptions" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_KzYrDqXaEeKWZ7f2mufWnQ" name="return" type="_KyViK6XaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Kzh08KXaEeKWZ7f2mufWnQ" name="main" visibility="public" isStatic="true">
+            <ownedComment xmi:id="_Kzh08qXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * @param args
+ * @throws IOException 
+ * @throws ParserConfigurationException 
+ * @throws ParseException 
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_Kzh08aXaEeKWZ7f2mufWnQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Kzh086XaEeKWZ7f2mufWnQ" name="printHelp" visibility="private" isStatic="true">
+            <ownedParameter xmi:id="_Kzh09KXaEeKWZ7f2mufWnQ" name="options" type="_KyViK6XaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KvzylaXaEeKWZ7f2mufWnQ" name="NewFastCDCDedup">
+          <ownedComment xmi:id="_Kv88gKXaEeKWZ7f2mufWnQ">
+            <body>/** 
+ * 该类和FastCDCDedup的主要区别是实现方式不同.该类中方法去除了System.arrayopy()函数
+ */
+</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_Kzh09aXaEeKWZ7f2mufWnQ" name="log" visibility="private" isStatic="true" type="_KyMYPaXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_Kzrl8KXaEeKWZ7f2mufWnQ" name="dedupfileguid" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Kzrl8aXaEeKWZ7f2mufWnQ" name="hashPool" visibility="private" isStatic="true" type="_KyMYQ6XaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_Kz1W8KXaEeKWZ7f2mufWnQ" name="rabinFunction" visibility="private" isStatic="true" type="_KyViOKXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_Kz-g4KXaEeKWZ7f2mufWnQ" name="adler32Function" visibility="private" isStatic="true" type="_KyViM6XaEeKWZ7f2mufWnQ"/>
+          <ownedOperation xmi:id="_Kz-g4aXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_Kz-g4qXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_Kz-g46XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Kz-g5KXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_Kz-g5aXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_Kz-g5qXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_Kz-g56XaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0IR4KXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K0IR4aXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0IR4qXaEeKWZ7f2mufWnQ" name="filepath">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0IR46XaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K0IR5KXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0IR5aXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0Rb0KXaEeKWZ7f2mufWnQ" name="getCDCChunkLen" visibility="public">
+            <ownedParameter xmi:id="_K0Rb0aXaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0Rb0qXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0Rb06XaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0Rb1KXaEeKWZ7f2mufWnQ" name="getSparseCDCDataChunk" visibility="public">
+            <ownedParameter xmi:id="_K0Rb1aXaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0Rb1qXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0Rb16XaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0Rb2KXaEeKWZ7f2mufWnQ" name="storeBackupJobInfoToDB" visibility="public">
+            <ownedComment xmi:id="_K0bM0KXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储备份任务文件信息
+ * 存储的映射关系（key:value）：备份任务全局id->备份文件全局id
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K0Rb2aXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0Rb2qXaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0bM0aXaEeKWZ7f2mufWnQ" name="storeMetaDataOfDedupFile" visibility="public">
+            <ownedComment xmi:id="_K0bM1aXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储去重文件元数据信息
+ * 存储的映射关系（key:value）: 备份文件全局id->去重文件元数据
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K0bM0qXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0bM06XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0bM1KXaEeKWZ7f2mufWnQ" name="return" type="_KyMYSKXaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0bM1qXaEeKWZ7f2mufWnQ" name="storeChunksNumToMetaDataDedupFile" visibility="public">
+            <ownedParameter xmi:id="_K0bM16XaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0bM2KXaEeKWZ7f2mufWnQ" name="mf" type="_KyMYSKXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0bM2aXaEeKWZ7f2mufWnQ" name="blocknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0k90KXaEeKWZ7f2mufWnQ" name="generateDedupFileGuid" visibility="public">
+            <ownedParameter xmi:id="_K0k90aXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kv88gaXaEeKWZ7f2mufWnQ" name="FSPDedup">
+          <ownedAttribute xmi:id="_K0k90qXaEeKWZ7f2mufWnQ" name="log" visibility="private" isStatic="true" type="_KyMYPaXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K0k906XaEeKWZ7f2mufWnQ" name="dedupfileguid" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_K0uHwKXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K0uHwaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uHwqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0uHw6XaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K0uHxKXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uHxaXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uHxqXaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0uHx6XaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K0uHyKXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uHyaXaEeKWZ7f2mufWnQ" name="filepath">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0uHyqXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K0uHy6XaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uHzKXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0uHzaXaEeKWZ7f2mufWnQ" name="getSparseFSPDataChunk" visibility="public">
+            <ownedParameter xmi:id="_K0uHzqXaEeKWZ7f2mufWnQ" name="fsprawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0uHz6XaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K0uH0KXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K0uH0aXaEeKWZ7f2mufWnQ" name="storeBackupJobInfoToDB" visibility="public">
+            <ownedComment xmi:id="_K034wKXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储备份任务文件信息
+ * 存储的映射关系（key:value）：备份任务全局id->备份文件全局id
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K0uH0qXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K0uH06XaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K034waXaEeKWZ7f2mufWnQ" name="storeMetaDataOfDedupFile" visibility="public">
+            <ownedComment xmi:id="_K034xaXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储去重文件元数据信息
+ * 存储的映射关系（key:value）: 备份文件全局id->去重文件元数据
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K034wqXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K034w6XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K034xKXaEeKWZ7f2mufWnQ" name="return" type="_KyMYSKXaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K034xqXaEeKWZ7f2mufWnQ" name="generateDedupFileGuid" visibility="public">
+            <ownedParameter xmi:id="_K034x6XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kv88gqXaEeKWZ7f2mufWnQ" name="Backup">
+          <ownedOperation xmi:id="_K034yKXaEeKWZ7f2mufWnQ" name="buildOptions" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_K034yaXaEeKWZ7f2mufWnQ" name="return" type="_KyViK6XaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K034yqXaEeKWZ7f2mufWnQ" name="main" visibility="public" isStatic="true">
+            <ownedComment xmi:id="_K034zKXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * @param args
+ * @throws IOException 
+ * @throws ParseException 
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K034y6XaEeKWZ7f2mufWnQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K034zaXaEeKWZ7f2mufWnQ" name="printHelp" visibility="private" isStatic="true">
+            <ownedParameter xmi:id="_K034zqXaEeKWZ7f2mufWnQ" name="options" type="_KyViK6XaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kv88g6XaEeKWZ7f2mufWnQ" name="BackRestore">
+          <ownedAttribute xmi:id="_K1BpwKXaEeKWZ7f2mufWnQ" name="dm" visibility="private" type="_KyMYVqXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K1BpwaXaEeKWZ7f2mufWnQ" name="bdb" visibility="private" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+          <ownedOperation xmi:id="_K1BpwqXaEeKWZ7f2mufWnQ" name="backup" visibility="public">
+            <ownedParameter xmi:id="_K1Bpw6XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K1BpxKXaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1BpxaXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K1BpxqXaEeKWZ7f2mufWnQ" name="filepath">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1Bpx6XaEeKWZ7f2mufWnQ" name="finalize" visibility="public"/>
+          <ownedOperation xmi:id="_K1KzsKXaEeKWZ7f2mufWnQ" name="closedb" visibility="public"/>
+          <ownedOperation xmi:id="_K1KzsaXaEeKWZ7f2mufWnQ" name="backupJobInfoFromDB" visibility="public">
+            <ownedParameter xmi:id="_K1KzsqXaEeKWZ7f2mufWnQ" name="key">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K1Kzs6XaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1KztKXaEeKWZ7f2mufWnQ" name="bytesToHexString" visibility="public">
+            <ownedParameter xmi:id="_K1KztaXaEeKWZ7f2mufWnQ" name="src">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K1KztqXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1Kzt6XaEeKWZ7f2mufWnQ" name="hexStringToBytes" visibility="public">
+            <ownedParameter xmi:id="_K1KzuKXaEeKWZ7f2mufWnQ" name="hexString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K1KzuaXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1Kzu6XaEeKWZ7f2mufWnQ" name="charToByte" visibility="private">
+            <ownedParameter xmi:id="_K1KzvKXaEeKWZ7f2mufWnQ" name="c">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K1KzvaXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1KzvqXaEeKWZ7f2mufWnQ" name="main" visibility="public" isStatic="true">
+            <ownedParameter xmi:id="_K1Kzv6XaEeKWZ7f2mufWnQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kv88hKXaEeKWZ7f2mufWnQ" name="FastCDCDedup">
+          <ownedAttribute xmi:id="_K1UksKXaEeKWZ7f2mufWnQ" name="log" visibility="private" isStatic="true" type="_KyMYPaXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K1UksaXaEeKWZ7f2mufWnQ" name="dedupfileguid" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_K1duoKXaEeKWZ7f2mufWnQ" name="hashPool" visibility="private" isStatic="true" type="_KyMYQ6XaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K1nfoKXaEeKWZ7f2mufWnQ" name="rabinFunction" visibility="private" isStatic="true" type="_KyViOKXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K1xQoKXaEeKWZ7f2mufWnQ" name="adler32Function" visibility="private" isStatic="true" type="_KyViM6XaEeKWZ7f2mufWnQ"/>
+          <ownedOperation xmi:id="_K1xQoaXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K1xQoqXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K1xQo6XaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K1xQpKXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K1xQpaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K1xQpqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K1xQp6XaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K16akKXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K16akaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K16akqXaEeKWZ7f2mufWnQ" name="filepath">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K16ak6XaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K16alKXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K16alaXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K16alqXaEeKWZ7f2mufWnQ" name="getCDCChunkLen" visibility="public">
+            <ownedParameter xmi:id="_K16al6XaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K16amKXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K16amaXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K2ELkKXaEeKWZ7f2mufWnQ" name="getSparseCDCDataChunk" visibility="public">
+            <ownedParameter xmi:id="_K2ELkaXaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K2ELkqXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K2ELk6XaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K2ELlKXaEeKWZ7f2mufWnQ" name="storeBackupJobInfoToDB" visibility="public">
+            <ownedComment xmi:id="_K2ELl6XaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储备份任务文件信息
+ * 存储的映射关系（key:value）：备份任务全局id->备份文件全局id
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K2ELlaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K2ELlqXaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K2ELmKXaEeKWZ7f2mufWnQ" name="storeMetaDataOfDedupFile" visibility="public">
+            <ownedComment xmi:id="_K2N8kKXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储去重文件元数据信息
+ * 存储的映射关系（key:value）: 备份文件全局id->去重文件元数据
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K2ELmaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K2ELmqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K2ELm6XaEeKWZ7f2mufWnQ" name="return" type="_KyMYSKXaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K2N8kaXaEeKWZ7f2mufWnQ" name="storeChunksNumToMetaDataDedupFile" visibility="public">
+            <ownedParameter xmi:id="_K2N8kqXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K2N8k6XaEeKWZ7f2mufWnQ" name="mf" type="_KyMYSKXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K2N8lKXaEeKWZ7f2mufWnQ" name="blocknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K2N8laXaEeKWZ7f2mufWnQ" name="generateDedupFileGuid" visibility="public">
+            <ownedParameter xmi:id="_K2N8lqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KwGtgKXaEeKWZ7f2mufWnQ" name="CDCDedup">
+          <ownedAttribute xmi:id="_K2XGgKXaEeKWZ7f2mufWnQ" name="log" visibility="private" isStatic="true" type="_KyMYPaXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K2g3gKXaEeKWZ7f2mufWnQ" name="hashPool" visibility="private" isStatic="true" type="_KyMYQ6XaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K2g3gaXaEeKWZ7f2mufWnQ" name="rabinFunction" visibility="private" isStatic="true" type="_KyViOKXaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K2qBcKXaEeKWZ7f2mufWnQ" name="adler32Function" visibility="private" isStatic="true" type="_KyViM6XaEeKWZ7f2mufWnQ"/>
+          <ownedAttribute xmi:id="_K2zycKXaEeKWZ7f2mufWnQ" name="dedupfileguid" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_K29jcKXaEeKWZ7f2mufWnQ" name="mainvolumepath" visibility="package">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_K29jcaXaEeKWZ7f2mufWnQ" value="E:\deduptest\cdcvolumes\cdcfiles"/>
+          </ownedAttribute>
+          <ownedOperation xmi:id="_K29jcqXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K29jc6XaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K29jdKXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3GtYKXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+            <ownedParameter xmi:id="_K3GtYaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3GtYqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3GtY6XaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3GtZKXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K3GtZaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3GtZqXaEeKWZ7f2mufWnQ" name="filepath">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3QeYKXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+            <ownedParameter xmi:id="_K3QeYaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3QeYqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3QeY6XaEeKWZ7f2mufWnQ" name="getCDCChunkLen" visibility="public">
+            <ownedParameter xmi:id="_K3QeZKXaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K3QeZaXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K3QeZqXaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3aPYKXaEeKWZ7f2mufWnQ" name="getSparseCDCDataChunk" visibility="public">
+            <ownedParameter xmi:id="_K3aPYaXaEeKWZ7f2mufWnQ" name="cdcrawlchunks">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K3aPYqXaEeKWZ7f2mufWnQ" name="chunknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_K3aPY6XaEeKWZ7f2mufWnQ" name="return" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3aPZKXaEeKWZ7f2mufWnQ" name="storeBackupJobInfoToDB" visibility="public">
+            <ownedComment xmi:id="_K3aPZ6XaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储备份任务文件信息
+ * 存储的映射关系（key:value）：备份任务全局id->备份文件全局id
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K3aPZaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3aPZqXaEeKWZ7f2mufWnQ" name="filenum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3aPaKXaEeKWZ7f2mufWnQ" name="storeMetaDataOfDedupFile" visibility="public">
+            <ownedComment xmi:id="_K3jZUKXaEeKWZ7f2mufWnQ">
+              <body>/** 
+ * 存储去重文件元数据信息
+ * 存储的映射关系（key:value）: 备份文件全局id->去重文件元数据
+ */
+</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_K3aPaaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3aPaqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3aPa6XaEeKWZ7f2mufWnQ" name="return" type="_KyMYSKXaEeKWZ7f2mufWnQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3jZUaXaEeKWZ7f2mufWnQ" name="storeChunksNumToMetaDataDedupFile" visibility="public">
+            <ownedParameter xmi:id="_K3jZUqXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3jZU6XaEeKWZ7f2mufWnQ" name="mf" type="_KyMYSKXaEeKWZ7f2mufWnQ"/>
+            <ownedParameter xmi:id="_K3jZVKXaEeKWZ7f2mufWnQ" name="blocknum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_K3jZVaXaEeKWZ7f2mufWnQ" name="generateDedupFileGuid" visibility="public">
+            <ownedParameter xmi:id="_K3jZVqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KyMYMKXaEeKWZ7f2mufWnQ" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyMYMaXaEeKWZ7f2mufWnQ" name="io">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYMqXaEeKWZ7f2mufWnQ" name="File"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYM6XaEeKWZ7f2mufWnQ" name="FileInputStream"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYNKXaEeKWZ7f2mufWnQ" name="FileNotFoundException"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYNaXaEeKWZ7f2mufWnQ" name="FileOutputStream"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYNqXaEeKWZ7f2mufWnQ" name="IOException"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYN6XaEeKWZ7f2mufWnQ" name="RandomAccessFile"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyViO6XaEeKWZ7f2mufWnQ" name="UnsupportedEncodingException"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyMYOKXaEeKWZ7f2mufWnQ" name="nio">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYOaXaEeKWZ7f2mufWnQ" name="ByteBuffer"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViMKXaEeKWZ7f2mufWnQ" name="channels">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViMaXaEeKWZ7f2mufWnQ" name="FileChannel"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViIKXaEeKWZ7f2mufWnQ" name="util">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyViIaXaEeKWZ7f2mufWnQ" name="ArrayList"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViMqXaEeKWZ7f2mufWnQ" name="zip">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViM6XaEeKWZ7f2mufWnQ" name="Adler32"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyViQKXaEeKWZ7f2mufWnQ" name="Date"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViPKXaEeKWZ7f2mufWnQ" name="security">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyViPaXaEeKWZ7f2mufWnQ" name="NoSuchAlgorithmException"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViPqXaEeKWZ7f2mufWnQ" name="text">
+      <packagedElement xmi:type="uml:DataType" xmi:id="_KyViP6XaEeKWZ7f2mufWnQ" name="SimpleDateFormat"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KyMYOqXaEeKWZ7f2mufWnQ" name="org">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyMYO6XaEeKWZ7f2mufWnQ" name="apache">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYPKXaEeKWZ7f2mufWnQ" name="log4j">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYPaXaEeKWZ7f2mufWnQ" name="Logger"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViJqXaEeKWZ7f2mufWnQ" name="commons">
+        <packagedElement xmi:type="uml:Package" xmi:id="_KyViJ6XaEeKWZ7f2mufWnQ" name="cli">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViKKXaEeKWZ7f2mufWnQ" name="CommandLine"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViKaXaEeKWZ7f2mufWnQ" name="CommandLineParser"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViKqXaEeKWZ7f2mufWnQ" name="HelpFormatter"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViK6XaEeKWZ7f2mufWnQ" name="Options"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViLKXaEeKWZ7f2mufWnQ" name="ParseException"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViLaXaEeKWZ7f2mufWnQ" name="PosixParser"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyMYPqXaEeKWZ7f2mufWnQ" name="opendedup">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYP6XaEeKWZ7f2mufWnQ" name="collections">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYQKXaEeKWZ7f2mufWnQ" name="HashtableFullException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYQaXaEeKWZ7f2mufWnQ" name="hashing">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYQqXaEeKWZ7f2mufWnQ" name="AbstractHashEngine"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYQ6XaEeKWZ7f2mufWnQ" name="HashFunctionPool"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYRKXaEeKWZ7f2mufWnQ" name="sdfs">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYRaXaEeKWZ7f2mufWnQ" name="Main"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_KyMYRqXaEeKWZ7f2mufWnQ" name="io">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYR6XaEeKWZ7f2mufWnQ" name="DedupFileChannel"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYSKXaEeKWZ7f2mufWnQ" name="MetaDataDedupFile"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_KyMYSaXaEeKWZ7f2mufWnQ" name="servers">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYSqXaEeKWZ7f2mufWnQ" name="HashChunkService"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_KyViR6XaEeKWZ7f2mufWnQ" name="filestore">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViSKXaEeKWZ7f2mufWnQ" name="MetaFileStore"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyMYS6XaEeKWZ7f2mufWnQ" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYTKXaEeKWZ7f2mufWnQ" name="Adler32_Checksum"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYTaXaEeKWZ7f2mufWnQ" name="ByteUtils"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyMYTqXaEeKWZ7f2mufWnQ" name="SDFSLogger"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViLqXaEeKWZ7f2mufWnQ" name="OSValidator"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KyViIqXaEeKWZ7f2mufWnQ" name="javax">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViI6XaEeKWZ7f2mufWnQ" name="xml">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViJKXaEeKWZ7f2mufWnQ" name="parsers">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViJaXaEeKWZ7f2mufWnQ" name="ParserConfigurationException"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KyViNKXaEeKWZ7f2mufWnQ" name="com">
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViNaXaEeKWZ7f2mufWnQ" name="planetj">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViNqXaEeKWZ7f2mufWnQ" name="math">
+        <packagedElement xmi:type="uml:Package" xmi:id="_KyViN6XaEeKWZ7f2mufWnQ" name="rabinhash">
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViOKXaEeKWZ7f2mufWnQ" name="RabinHashFunction32"/>
+          <packagedElement xmi:type="uml:DataType" xmi:id="_KyViSaXaEeKWZ7f2mufWnQ" name="RabinHashFunction64"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KyViQaXaEeKWZ7f2mufWnQ" name="sleepycat">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KyViQqXaEeKWZ7f2mufWnQ" name="je">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViQ6XaEeKWZ7f2mufWnQ" name="DatabaseEntry"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViRKXaEeKWZ7f2mufWnQ" name="DatabaseException"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViRaXaEeKWZ7f2mufWnQ" name="LockMode"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KyViRqXaEeKWZ7f2mufWnQ" name="OperationStatus"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Kvzyk6XaEeKWZ7f2mufWnQ" name="SWDedup">
+    <ownedAttribute xmi:id="_KyfTIKXaEeKWZ7f2mufWnQ" name="log" visibility="private" isStatic="true" type="_KyMYPaXaEeKWZ7f2mufWnQ"/>
+    <ownedAttribute xmi:id="_KyfTIaXaEeKWZ7f2mufWnQ" name="hashPool" visibility="private" isStatic="true" type="_KyMYQ6XaEeKWZ7f2mufWnQ"/>
+    <ownedOperation xmi:id="_KzFJRaXaEeKWZ7f2mufWnQ" name="main" visibility="public" isStatic="true">
+      <ownedParameter xmi:id="_KzFJRqXaEeKWZ7f2mufWnQ" name="args">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzO6AKXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+      <ownedParameter xmi:id="_KzO6AaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+      <ownedParameter xmi:id="_KzO6AqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzO6BKXaEeKWZ7f2mufWnQ" name="dedup" visibility="public">
+      <ownedParameter xmi:id="_KzO6BaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+      <ownedParameter xmi:id="_KzO6BqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+      <ownedParameter xmi:id="_KzO6B6XaEeKWZ7f2mufWnQ" name="filenum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzO6CKXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+      <ownedParameter xmi:id="_KzO6CaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+      <ownedParameter xmi:id="_KzO6CqXaEeKWZ7f2mufWnQ" name="filepath">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzYrAKXaEeKWZ7f2mufWnQ" name="restore" visibility="public">
+      <ownedParameter xmi:id="_KzYrAaXaEeKWZ7f2mufWnQ" name="bdb" type="_KyMYUqXaEeKWZ7f2mufWnQ"/>
+      <ownedParameter xmi:id="_KzYrAqXaEeKWZ7f2mufWnQ" name="file" type="_KyMYMqXaEeKWZ7f2mufWnQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzYrBaXaEeKWZ7f2mufWnQ" name="getSWChunkLen" visibility="public">
+      <ownedParameter xmi:id="_KzYrBqXaEeKWZ7f2mufWnQ" name="swrawlchunks">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KzYrB6XaEeKWZ7f2mufWnQ" name="chunknum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KzYrCKXaEeKWZ7f2mufWnQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_KzYrCaXaEeKWZ7f2mufWnQ" name="getSparseSWDataChunk" visibility="public">
+      <ownedParameter xmi:id="_KzYrCqXaEeKWZ7f2mufWnQ" name="SWrawlchunks">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KzYrC6XaEeKWZ7f2mufWnQ" name="chunknum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_KzYrDKXaEeKWZ7f2mufWnQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>

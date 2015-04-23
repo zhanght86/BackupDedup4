@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/io
+END
+DedupFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/400/trunk/src/org/opendedup/sdfs/io/DedupFile.java
+END
+MetaDataDedupFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/io/MetaDataDedupFile.java
+END
+Volume.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/357/trunk/src/org/opendedup/sdfs/io/Volume.java
+END
+DedupFileLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/io/DedupFileLock.java
+END
+SparseDedupFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/401/trunk/src/org/opendedup/sdfs/io/SparseDedupFile.java
+END
+SparseDataChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/353/trunk/src/org/opendedup/sdfs/io/SparseDataChunk.java
+END
+BufferClosedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/io/BufferClosedException.java
+END
+VolumeConfigWriterThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/309/trunk/src/org/opendedup/sdfs/io/VolumeConfigWriterThread.java
+END
+WritableCacheBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/401/trunk/src/org/opendedup/sdfs/io/WritableCacheBuffer.java
+END
+FileClosedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/400/trunk/src/org/opendedup/sdfs/io/FileClosedException.java
+END
+SeekType.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/io/SeekType.java
+END
+DedupFileChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/400/trunk/src/org/opendedup/sdfs/io/DedupFileChannel.java
+END
+DedupChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/io/DedupChunk.java
+END
+ReadOnlyCacheBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/io/ReadOnlyCacheBuffer.java
+END
+VMDKData.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/io/VMDKData.java
+END
+CacheBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/io/CacheBuffer.java
+END

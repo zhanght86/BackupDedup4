@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore
+END
+S3ServicePool.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/306/trunk/src/org/opendedup/sdfs/filestore/S3ServicePool.java
+END
+HashStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/filestore/HashStore.java
+END
+ChunkData.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/353/trunk/src/org/opendedup/sdfs/filestore/ChunkData.java
+END
+MetaFileStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/MetaFileStore.java
+END
+AbstractChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/343/trunk/src/org/opendedup/sdfs/filestore/AbstractChunkStore.java
+END
+OpenFileMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/338/trunk/src/org/opendedup/sdfs/filestore/OpenFileMonitor.java
+END
+MAzureChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/388/trunk/src/org/opendedup/sdfs/filestore/MAzureChunkStore.java
+END
+ChunkEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/filestore/ChunkEvent.java
+END
+HashChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/364/trunk/src/org/opendedup/sdfs/filestore/HashChunk.java
+END
+S3ChunkStoreUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/286/trunk/src/org/opendedup/sdfs/filestore/S3ChunkStoreUtils.java
+END
+DedupFileStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/328/trunk/src/org/opendedup/sdfs/filestore/DedupFileStore.java
+END
+AbstractChunkStoreListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/261/trunk/src/org/opendedup/sdfs/filestore/AbstractChunkStoreListener.java
+END
+NullChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/343/trunk/src/org/opendedup/sdfs/filestore/NullChunkStore.java
+END
+GoogleChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/350/trunk/src/org/opendedup/sdfs/filestore/GoogleChunkStore.java
+END
+FileBasedChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/404/trunk/src/org/opendedup/sdfs/filestore/FileBasedChunkStore.java
+END
+FileChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/364/trunk/src/org/opendedup/sdfs/filestore/FileChunkStore.java
+END
+DSECompaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/DSECompaction.java
+END
+S3ChunkStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/350/trunk/src/org/opendedup/sdfs/filestore/S3ChunkStore.java
+END
+ConsistancyCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/filestore/ConsistancyCheck.java
+END

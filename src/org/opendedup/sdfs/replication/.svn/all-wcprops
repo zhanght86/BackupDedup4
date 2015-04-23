@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/replication
+END
+MetaFileImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/405/trunk/src/org/opendedup/sdfs/replication/MetaFileImport.java
+END
+ArchiveImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/399/trunk/src/org/opendedup/sdfs/replication/ArchiveImporter.java
+END
+ReplicationJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/303/trunk/src/org/opendedup/sdfs/replication/ReplicationJob.java
+END
+ReplicationScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/303/trunk/src/org/opendedup/sdfs/replication/ReplicationScheduler.java
+END
+ReplicationService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/393/trunk/src/org/opendedup/sdfs/replication/ReplicationService.java
+END
+ShutdownHook.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/302/trunk/src/org/opendedup/sdfs/replication/ShutdownHook.java
+END

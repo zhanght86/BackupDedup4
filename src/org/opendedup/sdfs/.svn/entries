@@ -1,0 +1,128 @@
+10
+
+dir
+405
+http://opendedup.googlecode.com/svn/trunk/src/org/opendedup/sdfs
+http://opendedup.googlecode.com/svn
+
+
+
+2012-11-28T04:52:00.145088Z
+405
+sam.silverberg@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+856e77c2-2ed6-11df-8e64-fd3be38ee323
+
+mgmt
+dir
+
+Main.java
+file
+
+
+
+
+
+7046a88166436cabfa36014e51d92265
+2012-11-11T20:31:02.893101Z
+403
+sam.silverberg@gmail.com
+has-props
+
+Config.java
+file
+
+
+
+
+
+b4b683e1796e31eee34a24f15db9e7bd
+2012-11-11T23:57:15.221673Z
+404
+sam.silverberg@gmail.com
+has-props
+
+notification
+dir
+
+monitor
+dir
+
+io
+dir
+
+network
+dir
+
+servers
+dir
+
+replication
+dir
+
+windows
+dir
+
+VolumeConfigWriter.java
+file
+
+
+
+
+
+a587190c233636b7595644dcd6653326
+2012-11-28T04:52:00.145088Z
+405
+sam.silverberg@gmail.com
+has-props
+
+filestore
+dir
+
+DSEConfigWriter.java
+file
+401
+
+
+
+2012-10-25T13:46:31.437500Z
+09a963a3b90da7c80416320ea5133935
+2012-08-15T15:24:47.015129Z
+376
+sam.silverberg@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22500
+

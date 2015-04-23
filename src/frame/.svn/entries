@@ -1,0 +1,98 @@
+10
+
+dir
+0
+http://opendedup.googlecode.com/svn/trunk/src/frame
+http://opendedup.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+856e77c2-2ed6-11df-8e64-fd3be38ee323
+
+MainFrame.java
+file
+
+
+
+add
+
+MainFrame.form
+file
+
+
+
+add
+
+CreateBackupJob.java
+file
+
+
+
+add
+
+VolumeInfoShow.java
+file
+
+
+
+add
+
+CreateBackupJob.form
+file
+
+
+
+add
+
+VolumeInfoShow.form
+file
+
+
+
+add
+
+TempStorage.java
+file
+
+
+
+add
+
+threads
+dir
+
+
+
+add
+
+CreateVolume.java
+file
+
+
+
+add
+
+CreateVolume.form
+file
+
+
+
+add
+

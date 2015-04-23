@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subsystem-config version="1.1.2">
+<locations dedup-db-store="C:\Program Files\sdfs\volumes\sdfs_vol1\ddb" io-log="C:\Program Files\sdfs\volumes\sdfs_vol1\io.SDFSLogger.getLog()"/>
+<io chunk-size="128" claim-hash-schedule="0 0 0/2 * * ?" dedup-files="true" file-read-cache="5" hash-size="16" max-file-inactive="900" max-file-write-buffers="24" max-open-files="1024" meta-file-cache="1024" multi-read-timeout="1000" safe-close="true" safe-sync="false" system-read-cache="1000" write-threads="6"/>
+<permissions default-file="0644" default-folder="0755" default-group="0" default-owner="0"/>
+<volume capacity="1GB" current-size="0" maximum-percentage-full="-1.0" path="C:\Program Files\sdfs\volumes\sdfs_vol1\files"/>
+<local-chunkstore allocation-size="1073741824" chunk-gc-schedule="0 0 0/4 * * ?" chunk-store="C:\Program Files\sdfs\volumes\sdfs_vol1\chunkstore\chunks" chunk-store-dirty-timeout="1000" chunk-store-read-cache="5" enabled="false" encrypt="false" encryption-key="GG2KnH6sgjtQKxEUMmTvrDJJQ7wKuCgcNqT" eviction-age="6" hash-db-store="C:\Program Files\sdfs\volumes\sdfs_vol1\chunkstore\hdb" pre-allocate="false" read-ahead-pages="4"/>
+</subsystem-config>
